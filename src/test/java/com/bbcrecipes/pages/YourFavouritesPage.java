@@ -31,7 +31,7 @@ public class YourFavouritesPage extends MainMenuPagePart {
                 webDriver.findElement(By.cssSelector(".promo-footer__confirm-button")).click();
             }
         } catch (NoSuchElementException e) {
-           log.info("No recipes saved");
+           log.info("No favourites recipes saved");
         }
         waitHelper.waitForPresenceOfElement(".no-recipes");
         return new YourFavouritesPage();
