@@ -3,10 +3,11 @@
 This is an example maven framework project demonstrating, the use of Springs dependency injection with Selenium-Webdriver and JUnit.
 
 <h2>Intro</h2>
-The purpose of this repo is to demonstrate how Selenium-Webdriver tests can be written in a way as to be implementation agnostic, achieving this using dependency injection.
+The purpose of this repo is to demonstrate how Selenium-Webdriver and Junit tests can be written in a way as to be implementation agnostic, achieving this using dependency injection.
 
 <h2>Usage</h2>
 To run with Chrome or Firefox browser:<br/>
+
 ```
 mvn clean test -Dselenium.Browser=chrome
 ```
