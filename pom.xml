@@ -7,6 +7,7 @@
     <groupId>org.example</groupId>
     <artifactId>BBCIngredients</artifactId>
     <version>1.0-SNAPSHOT</version>
+    
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -18,13 +19,18 @@
         <logback.classic>1.2.3</logback.classic>
         <selenium.Browser>chrome</selenium.Browser>
     </properties>
+
     <dependencies>
+
+        <!-- web driver -->
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.java.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- assertion -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -43,6 +49,8 @@
             <version>${junit.jupiter.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- dependency injection -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-test</artifactId>
@@ -53,6 +61,8 @@
             <artifactId>spring-context</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
+        <!-- logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
