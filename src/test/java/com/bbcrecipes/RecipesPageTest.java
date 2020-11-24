@@ -63,7 +63,7 @@ public class RecipesPageTest extends Drivers {
     @Test
     @DisplayName("Ingredients added to favourites are displayed")
     public void addToFavouritesDisplayed() {
-        int indexOfIngredient = 1; //Chunky halloumi chips
+        int indexOfIngredient = 1; //Chunky halloumi chips biscuits
         String ingredientTitle = ingredientsPage.getIngredientTitle(indexOfIngredient);
         String ingredientSubTitle = ingredientsPage.getIngredientSubTitle(indexOfIngredient);
 
